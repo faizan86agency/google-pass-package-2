@@ -1,6 +1,6 @@
 {
   "name": "google-pass-package-2",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
@@ -13,8 +13,7 @@
     }
   },
   "scripts": {
-    "build": "rm -fr dist/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
-    "fix": "./fixup"
+    "build": "rm -fr dist/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json"
   },
   "repository": {
     "type": "git",
