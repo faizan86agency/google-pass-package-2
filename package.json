@@ -12,17 +12,17 @@
       "require": "./dist/cjs/index.js",
       "types": "./dist/mjs/index.d.ts"
     },
-    "./lib/esm/*": {
-      "types": "./lib/esm/*.d.ts",
-      "import": "./lib/esm/*.js",
-      "require": "./lib/cjs/*.js",
-      "default": "./lib/esm/*.js"
+    "./dist/esm/*": {
+      "types": "./dist/esm/*.d.ts",
+      "import": "./dist/esm/*.js",
+      "require": "./dist/cjs/*.js",
+      "default": "./dist/esm/*.js"
     },
-    "./lib/cjs/*": {
-      "types": "./lib/cjs/*.d.ts",
-      "import": "./lib/esm/*.js",
-      "require": "./lib/cjs/*.js",
-      "default": "./lib/esm/*.js"
+    "./dist/cjs/*": {
+      "types": "./dist/cjs/*.d.ts",
+      "import": "./dist/esm/*.js",
+      "require": "./dist/cjs/*.js",
+      "default": "./dist/esm/*.js"
     }
   },
   "scripts": {
