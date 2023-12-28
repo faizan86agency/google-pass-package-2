@@ -11,6 +11,18 @@
       "import": "./dist/mjs/index.js",
       "require": "./dist/cjs/index.js",
       "types": "./dist/mjs/index.d.ts"
+    },
+    "./lib/esm/*": {
+      "types": "./lib/esm/*.d.ts",
+      "import": "./lib/esm/*.js",
+      "require": "./lib/cjs/*.js",
+      "default": "./lib/esm/*.js"
+    },
+    "./lib/cjs/*": {
+      "types": "./lib/cjs/*.d.ts",
+      "import": "./lib/esm/*.js",
+      "require": "./lib/cjs/*.js",
+      "default": "./lib/esm/*.js"
     }
   },
   "scripts": {
